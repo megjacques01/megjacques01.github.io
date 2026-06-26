@@ -1,6 +1,6 @@
 body{
-  background_color:#111;
-  color: #50C878;
+  background_color:#50C878;;
+  color: #111;
   font-family:Lucinda Console;
   margin: 0px;
 }
@@ -10,9 +10,9 @@ h1{
 
 .container{
   background-color:#111;
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
-  margin: 40px auto;
+  margin: 100px auto;
   padding: 50px;
   border: 8px solid #000000;
   border-radius: 20px;
