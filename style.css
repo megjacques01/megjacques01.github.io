@@ -7,4 +7,9 @@ body{
 h1{
   color:#50C878;
 }
-    
+div{
+  width:300px;
+  border: 15px #50C878;
+  padding: 50px;
+  margin: 20px;
+}
