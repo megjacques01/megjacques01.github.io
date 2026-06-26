@@ -1,18 +1,20 @@
 body{
   background_color:#111;
-  color: white;
+  color: #50C878;
   font-family:Lucinda Console;
-   width:300px;
-  border: 15px #50C878;
-  padding: 50px;
-  margin: 20px;
+  margin: 0px;
 }
 h1{
   color:#50C878;
 }
-div{
-  width:300px;
-  border: 15px #50C878;
+
+.container{
+  background-color:#111;
+  width: 80%;
+  max-width: 1200px;
+  margin: 40px auto;
   padding: 50px;
-  margin: 20px;
+  border: 8px solid #000000;
+  border-radius: 20px;
 }
+  
