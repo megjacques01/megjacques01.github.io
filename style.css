@@ -45,4 +45,20 @@ h2{
   overflow-y:auto;
   max-height:90vh;
 }
+
+.project-card{
+  display:flex;
+  gap:20px;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:15px;
+  background:#222;
+}
+
+.project-card img{
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:10px;
+}
   
