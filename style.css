@@ -17,6 +17,7 @@ h2{
   color:#FFFFFF;
 }
 .container{
+  display:flex;
   background-color:#000000;
   width: 90%;
   margin: 100px auto;
@@ -24,5 +25,22 @@ h2{
   border: 8px solid #DADADA;
   border-radius: 20px;
   min-height:100vh;
+}
+
+.sidebar{
+  width:30%;
+  background:#000000;
+  padding:30px;
+  border-radius:20px;
+}
+
+.projects
+{
+  width:70%;
+  background:#000000;
+  padding:30px;
+  border-radius:20px;
+  overflow-y:auto;
+  max-height:90vh;
 }
   
