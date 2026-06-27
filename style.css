@@ -64,6 +64,7 @@ h2{
 }
 
 .project-card-text{
+  flex:2;
   color:#FFFFFF
   font-family:Lucinda Console;
   margin: 0px;
