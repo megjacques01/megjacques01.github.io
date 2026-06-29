@@ -102,12 +102,12 @@ h2{
   border: 8px solid #DADADA;
   border-radius: 20px;
   min-height:100vh;
-  align:center;
+  text-align:center;
 }
 
 .project-page-img{
   width:400px;
-  align:center;
+  margin:0 auto;
 }
 
 .project-page-img img{
@@ -116,5 +116,4 @@ h2{
   object-fit: cover;
   border-radius:15px;
   display:block;
-  align:center;
 }
