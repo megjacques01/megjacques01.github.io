@@ -96,9 +96,9 @@ h2{
 
 .project-page{
   background-color:#000000;
-  width: 90%;
-  margin: 100px auto;
-  padding: 50px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 25px;
   border: 8px solid #DADADA;
   border-radius: 20px;
   min-height:100vh;
