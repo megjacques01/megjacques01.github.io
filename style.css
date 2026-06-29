@@ -102,6 +102,7 @@ h2{
   border: 8px solid #DADADA;
   border-radius: 20px;
   min-height:100vh;
+  align:center;
 }
 
 .project-page-img{
