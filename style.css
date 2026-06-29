@@ -77,4 +77,19 @@ h2{
   margin: 0px;
   gap:20px;
 }
-  
+
+.project-link{
+  color:#50C878;
+  font-weight:bold;
+  background-color:#000000;
+  border: 2px #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block
+}
+
+.project-link:hover, .project-link:active{
+  background-color:#58B835;
+  color: #FFFFFF;
+}
