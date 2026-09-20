@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <div class="back-container">
+    <a href="index.html" class="back-button">&larr; Back to Portfolio</a>
+    </div>
     <title> Tavi 1.0</title>
     <link rel="stylesheet" href="../style.css">
   </head>
@@ -18,7 +21,7 @@
              long graduation capstone project to demonstrate development, coding and 3D modeling ability, and teamwork. 
               </p>
 
-           <h1>-----</h1>
+           <h1>----</h1>
            <h1>DESIGN PROCESS</h1>
            <p> To start the design process, my team and I discussed what the goal for our project was. We determined how we wanted the robot to look, what code we wanted it to run, and how we wanted 
                it to interact with the user. After a few logistics meetings, we created our first mockup for how the robot should look. 
@@ -30,26 +33,60 @@
                design to ensure that there was enough room for all components. 
                </p>
            <img src="../photos/Tavi_1.0.jpg" alt="Tavi Robot">
-           
+           <p> Following the initial print, we found that we had updates to make. We needed more space to hold the Raspberry Pi, we needed more space for wiring, and we needed to adjust the body size to 
+              offset the weight of the head, and to give the head room to move. We started with an initial sketch concept. 
+           </p>
+           <img src="../photos/Tavi_V2_Concept.png" alt="Tavi Robot V2 Concept">
+           <p> After the reviewed concept, we re-made the Solidworks concept. </p>
+           <img src="../photos/Tavi_V2_Solidworks_Concept.png" alt="Tavi V2 Solidworks">
+           <p> Following the final print, we constructed the robot, and handed it over to the software team, who worked to deploy the code onto the robot.</p>
            <h1>----</h1>
-          <h1>HARDWARE</h1>
-          
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>SOFTWARE</h1>
-
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>CHALLENGES</h1>
-
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>LESSONS LEARNED</h1>
-
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>GALLERY</h1>
-
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>FUTURE IMPROVEMENTS</h1>
-
-          
+           <h1>HARDWARE</h1>
+           <ul>
+            <li>Raspberry Pi</li>
+            <li>Raspberry Pi compatible screen</li>
+            <li>USB Camera</li>
+            <li>Robotic Arms (provided by WPI Robotics Department)</li>
+            <li>Servos</li>
+            <li>Breadboards, wiring, power</li>
+           </ul>
+           <h1>----</h1>
+           <h1>SOFTWARE</h1>
+           <ul>
+            <li>C++</li>
+            <li>ROS</li>
+            <li>Python</li>
+           </ul>
+           <h1>----</h1>
+           <h1>CHALLENGES</h1>
+           <p> One of the major challenges was the team balance. The group started with two Robotics majors and four computer science majors. 
+               However, halfway through the year, the second robotic major student graduated, leaving me to be the only robotics student on the team. 
+               I was responsible for the entire redesign, Solidworks modeling, and construction. Luckily, we had a younger student who volunteered for our project
+               who assisted with the construction for the times that I needed another set of hands. It was a major hurdle as it was a ton of work, especially since 
+               the initial concept was designed and modeled with two robotics majors. 
+           </p>
+           <p> The second major challenge was the communication between the software team members, and their communication with the hardware team (me). The software team struggled 
+               to communicate their progress and their needs for the project with each other, with the advisor, and with the group as a whole. This left our project lacking in the 
+               software areas of the project, meaning our final project did not reflect the deliverables promised. The hardware side, which was my deliverables for the project, was 
+               delivered to its full extent and on time. However, the robot did not function as intended, leaving the project at a worse state than predicted. There were a few software 
+               elements that were operational, such as the facial tracking, the ears moving, the arm moving, and the face changing, but they did not work simultaneously, and the game 
+               integration was not completed in time for the final presentations. 
+           </p>
+           <h1>----</h1>
+           <h1>GALLERY</h1>
+           <img src="../photos/RBE_Social_Robot_Poster.pptx.png" alt="Tavi Robot Project Poster">
+           <div class="project-page-video"> 
+            <video width="100%" controls autoplay muted loop border-radius="15px">
+              <source src="../videos/Tavi_Test1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+           </div>
+           <div class="project-page-video"> 
+            <video width="100%" controls autoplay muted loop border-radius="15px">
+              <source src="../videos/Tavi_TestV2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
       </div>
   </body>
