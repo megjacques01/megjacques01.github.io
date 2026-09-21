@@ -6,6 +6,10 @@
   </head>
 
   <body>
+    <div class="project-page">
+         <div class="back-container">
+     <a href="../index.html" class="back-button">&larr; Back to Portfolio</a>
+    </div>
       <div class="project-page">
         <div class="project-page-img">
           <img src="../photos/Initiative.png" alt="Tavi Robot">
@@ -18,26 +22,40 @@
              It deploys via my Raspberry Pi which I stream to OBS using VNC. 
               </p>
 
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>DESIGN PROCESS</h1>
-
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>HARDWARE</h1>
-          
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>SOFTWARE</h1>
-
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>CHALLENGES</h1>
-
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>LESSONS LEARNED</h1>
-
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>GALLERY</h1>
-
-           <h1>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</h1>
-          <h1>FUTURE IMPROVEMENTS</h1>
+           <h1>----</h1>
+           <h1>DESIGN PROCESS</h1>
+           <p> To start the design process, I had to consider what I needed to display. I needed a way to display the full turn order, as well as 
+               display each person's turn in order. I also wanted to add images that would lay underneath the name, and I could remove and add at will. 
+           </p>
+           <img src="../photos/Combat_Round.png" alt="Combat Round">
+           <p> Once I managed to use Tkinter to make a basic UI interface, I made functions that would allow me to move between the players using the space bar, 
+               reset the program, and add the images. I used keybinds to connect to a USB keyboard, allowing me to update each person, rework the turn order, or 
+               display the whole turn order from my seat at the head of the table.   
+           </p>
+           <img src="../photos/Player_Status.png" alt="Combat Round">
+           <img src="../photos/Full_Initiative.png" alt="Combat Round">
+           <img src="../photos/Set_Slot.png" alt="Combat Round">
+           
+           <h1>----</h1>
+           <h1>HARDWARE</h1>
+           <ul>
+            <li>Raspberry Pi</li>
+            <li>Raspberry Pi compatible screen</li>
+            <li>USB Keyboard </li>
+           </ul>
+           <h1>----</h1>
+           <h1>SOFTWARE</h1>
+           <ul>
+            <li>Python</li>
+            <li>Tkinter</li>
+           </ul>
+           <h1>----</h1>
+           <h1>CHALLENGES</h1>
+           <p> The major challenge was setting up the libraries for each player to keep and display the effects properly. I had many issues with the libraries
+               not holding the information properly when the turns progressed, not displaying the correct symbols, and skipping over turns. I had to learn a lot about
+               python library and dictionary structures, as well as Tkinter, in order to properly display the character and their effects. I also had to create a way to 
+               skip a player's turn and to do a clean reset. It forced me to learn a lot about python. 
+           </p>
 
           
         </div>
