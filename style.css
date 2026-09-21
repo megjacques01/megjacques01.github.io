@@ -53,13 +53,13 @@ h2{
   margin-bottom:20px;
   border-radius:15px;
   background:#1a1a1a;
-  border: 1px solid #333333
+  border: 1px solid #333333;
   align-items:center;
 }
 
 .project-card-img{
   flex-shrink: 0;
-  width:200px;
+  width:250px;
 }
 
 .project-card-img img{
@@ -105,11 +105,11 @@ h2{
   border: 8px solid #DADADA;
   border-radius: 20px;
   min-height:100vh;
-  text-align:center;
+  text-align:left;
 }
 
 .project-page-img{
-  width:500px;
+  width:600px;
   margin:0 auto;
 }
 
